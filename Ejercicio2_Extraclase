@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+int main() {
+	int numero;
+	int numero2;
+	int auxiliar;
+	cout << "introduzca el numero";
+	cout << "\n";
+	cin >> numero;
+	numero2 = numero;
+	auxiliar = numero;
+	while (numero != 0) {
+		while (numero2 != 0) {
+			if (numero2 == 1 || numero2 == auxiliar || numero == 1 || numero == auxiliar) {
+				cout << "*" << " ";
+				numero2 -= 1;
+			}
+			else {
+				cout << "  ";
+				numero2 -= 1;
+			}
+		}
+		numero2 = auxiliar;
+		cout << "\n";
+		numero -= 1;
+	}
+	return 0;
+}
