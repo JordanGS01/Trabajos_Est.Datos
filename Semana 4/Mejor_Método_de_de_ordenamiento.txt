@@ -1,0 +1,5 @@
+¿Cuál es el algoritmo más rápido?
+	El algoritmo más eficiente es el quick sort en la mayoría de casos, sin embargo esto puede 
+depender de la entrada que este reciba, dependiendo del caso el quick sort puede flaquear en 
+comparación a otros algoritmos de ordenamiento, sin embargo en quick es la más eficiente en la 
+mayoría de casos, en conclusión, la velocidad del método depende de su entrada
